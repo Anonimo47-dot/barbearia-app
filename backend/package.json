@@ -1,0 +1,27 @@
+{
+  "name": "barbearia-backend",
+  "version": "1.0.0",
+  "description": "API para gerenciamento de barbearia",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": ["barbearia", "agendamento"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5",
+    "express-validator": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "jest": "^29.0.0"
+  }
+}
