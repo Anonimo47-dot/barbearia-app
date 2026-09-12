@@ -33,7 +33,7 @@ Principais rotas:
 - JWT_SECRET=uma_chave_secreta
 - PORT=3000
 
-Opcionalmente (para o script de seed):
+Opcionalmente (para os scripts de seed):
 - ADMIN_EMAIL=admin@barbearia.local
 - ADMIN_PASSWORD=admin123
 - ADMIN_NAME="Admin Barbearia"
@@ -49,7 +49,11 @@ Preencha `ADMIN_EMAIL` e `ADMIN_PASSWORD` no arquivo `.env` antes de rodar, ou u
 
    npm run seed
 
-Isso cria um usuário admin com o e‑mail e senha definidos nas variáveis de ambiente.
+5b. Executar seed completo (admin, serviços, staff, perfil, agendamentos de exemplo)
+
+   npm run seed:all
+
+Isso cria um conjunto de dados iniciais úteis para testar a API localmente.
 
 ### Observações
 - Não use as senhas padrão em produção. Troque `ADMIN_PASSWORD` imediatamente.
